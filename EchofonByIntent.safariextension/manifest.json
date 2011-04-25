@@ -1,0 +1,24 @@
+{
+    "name":"EchofonByIntent",
+    "version":"1.0",
+    "description":"EchofonByIntent",
+    "icons":{
+        "16":"Icon-16.png",
+        "48":"Icon-48.png",
+        "128":"Icon-128.png"
+    },
+    "content_scripts":[
+        {
+            "matches":[
+                "https://twitter.com/intent/tweet*"
+            ],
+            "js":[
+                "EchofonByIntent.js"
+            ],
+            "run_at":"document_end"
+        }
+    ],
+    "permissions":[
+        "https://twitter.com/intent/tweet*"
+    ]
+}

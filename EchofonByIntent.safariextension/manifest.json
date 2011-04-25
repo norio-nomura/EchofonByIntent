@@ -1,6 +1,6 @@
 {
     "name":"EchofonByIntent",
-    "version":"1.0",
+    "version":"1.0.1",
     "description":"EchofonByIntent",
     "icons":{
         "16":"Icon-16.png",
@@ -17,8 +17,5 @@
             ],
             "run_at":"document_end"
         }
-    ],
-    "permissions":[
-        "https://twitter.com/intent/tweet*"
     ]
 }
